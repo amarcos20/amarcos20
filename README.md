@@ -8,20 +8,13 @@
 
 ---
 
-<table>
+<table align="center">
 <tr>
-<td valign="top">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/ascii-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/ascii-light.svg">
-  <img alt="ascii art portrait" src="assets/ascii-light.svg">
-</picture>
-</td>
 <td valign="top">
 <pre>
 Afonso@fcup ----------------------------------
 University: .............. FCUP, Porto
-Course: .................. Bioinformatics &amp;
+Course: .................. Bioinformatics
 Year: .................... 3rd Year
 -
 Currently Learning: ...... 
@@ -45,7 +38,7 @@ LinkedIn: ................ afonsomarcos20
 
 ## 🚀 About Me
 
-I'm a 3rd-year Bioinformatics student at **FCUP** (Faculdade de Ciências da Universidade do Porto), with a wide range of interests across the tech world - from building full-stack web apps to understanding how systems can be broken (and secured).
+I'm a 3rd-year Bioinformatics student at **FCUP** (Faculdade de Ciências da Universidade do Porto), exploring new bioinformatics techniques and tools every day.
 
 ## 🔍 Currently Exploring
 
