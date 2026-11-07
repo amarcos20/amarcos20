@@ -17,7 +17,7 @@ University: .............. FCUP, Porto
 Course: .................. Bioinformatics
 Year: .................... 3rd Year
 -
-Currently Learning: ...... 
+Currently Learning: ...... Deep Learning, Transcriptomics
 Focus Areas: ............. Genomics, Machine Learning
 -
 Languages.Programming: ... Python, R, Java, ShellScript
