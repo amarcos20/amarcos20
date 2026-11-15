@@ -29,14 +29,6 @@ foundation models to reproducible pipelines at cluster scale.
   from the files it left on disk.
 - Going deeper into deep learning and transcriptomics.
 
-## How I like to work
-
-- One command from raw data to final table, inside a container.
-- The test set is opened once, at the end.
-- Tools that read before they write. If something can be diagnosed without
-  touching it, it should be.
-- Results go in data files, not hard-coded in notebooks.
-
 ## Away from the screen
 
 Training for a marathon, alongside strength training and football.
