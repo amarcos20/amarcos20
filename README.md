@@ -1,5 +1,5 @@
 ```text
->afonso_marcos | bioinformatics | University of Porto (FCUP / ICBAS) | 3rd year
+>afonso_marcos | bioinformatics | University of Porto (FCUP / FFUP / ICBAS) | 3rd year
 ATGGCTCGTGCTACTCATTAGAATTAA
 ```
 
