@@ -1,98 +1,57 @@
-<div align="center">
+```text
+>afonso_marcos | bioinformatics | University of Porto (FCUP / ICBAS) | 3rd year
+ATGGCTCGTGCTACTCATTAGAATTAA
+```
 
-# Hi, I'm Afonso 👋
+<sub>Translate it, reading TAG as pyrrolysine.</sub>
 
-### Bioinformatics Student @ FCUP/ICBAS/FFUP (University of Porto)
+I study bioinformatics in Porto. Most of what I enjoy is taking data that
+already exists and checking it properly: the work directory of a failed
+pipeline, a genome assembly next to its reference, a classifier that only
+looks good because the classes are imbalanced.
 
-</div>
+## Now
 
----
+- Writing a [MultiQC](https://github.com/MultiQC/MultiQC) module for
+  ABRicate, the antimicrobial resistance and virulence gene screener
+  ([MultiQC#3735](https://github.com/MultiQC/MultiQC/issues/3735)).
+- Building [nf-diagnose-mcp](https://github.com/amarcos20/nf-diagnose-mcp),
+  a read-only server that works out why a Nextflow / nf-core run failed
+  from the files it left on disk.
+- Learning more deep learning and transcriptomics, with an eye on bacterial
+  genomics for my final-year project.
 
-<table align="center">
-<tr>
-<td valign="top">
-<pre>
-Afonso@fcup ----------------------------------
-University: .............. FCUP, Porto
-Course: .................. Bioinformatics
-Year: .................... 3rd Year
--
-Currently Learning: ...... Deep Learning, Transcriptomics
-Focus Areas: ............. Genomics, Machine Learning
--
-Languages.Programming: ... Python, R, Java, ShellScript
-Languages.Real: .......... Portuguese, English, Spanish
--
-Interests: ............... Sports, Fitness, Tech, Genomics
-Contact ----------------------------------------
-Email: ................... afonso20marcos@gmail.com
-LinkedIn: ................ afonsomarcos20
+## Selected work
 
+| Project | What it is | Result |
+|---|---|---|
+| [nf-diagnose-mcp](https://github.com/amarcos20/nf-diagnose-mcp) | MCP server for diagnosing failed Nextflow runs: failed tasks, exit codes, enforced limits, tail of the logs | Tested on real nf-core runs, locally and on a SLURM cluster |
+| [FCUP-DL-ML2](https://github.com/amarcos20/FCUP-DL-ML2) | Heart murmur detection from phonocardiograms (CirCor DigiScope), CNN and RNN on log-mel spectrograms | Weighted accuracy 0.75 (CNN) and 0.79 (RNN) on a test fold used once; baseline 0.50 |
+| [FFUP-OMICS-ALPHAFOLD](https://github.com/amarcos20/FFUP-OMICS-ALPHAFOLD) | AlphaFold 2 vs AlphaFold 3: pLDDT, RMSD, TM-score and heme geometry | [Report and slides](https://amarcos20.github.io/FFUP-OMICS-ALPHAFOLD/) |
+| [FCUP-ML-ML1](https://github.com/amarcos20/FCUP-ML-ML1) | CART decision tree written from scratch, then modified for class imbalance | Three modifications compared against the standard tree |
+| [FCUP-EPIDEMIOLOGY](https://github.com/amarcos20/FCUP-EPIDEMIOLOGY) | Protocol for a case-control study on caffeine intake and Parkinson's disease | [Web version](https://amarcos20.github.io/FCUP-EPIDEMIOLOGY/) |
 
-</pre>
-</td>
-</tr>
-</table>
+## How I like to work
 
----
+- One command from raw data to final table, inside a container (Apptainer,
+  Conda environments with pinned versions).
+- The test set is opened once, at the end.
+- Tools that read before they write. If something can be diagnosed without
+  touching it, it should be.
+- Results go in data files, not hard-coded in notebooks.
 
-## 🚀 About Me
+## Tools
 
-I'm a 3rd-year Bioinformatics student at **FCUP** (Faculdade de Ciências da Universidade do Porto), exploring new bioinformatics techniques and tools every day.
+**Languages:** Python, R, Bash, SQL, Java<br>
+**Analysis and ML:** pandas, scikit-learn, PyTorch, Biopython<br>
+**Pipelines and environments:** Nextflow / nf-core, Snakemake, Apptainer, Docker, Conda, SLURM, Galaxy<br>
+**Data:** FASTA/FASTQ, SAM/BAM, VCF, GFF/GTF, NCBI, AlphaFold DB
 
-## 🔍 Currently Exploring
+## Away from the screen
 
-- 🤖 **Deep Learning** - working through the fundamentals and building small projects
-- 🔐 **Omics** - I am exploring different omics levels and figuring out how to integrate them with other types of data.
+Training for a marathon, alongside strength training and football.
 
-## 🏃 Outside of Code
+## Contact
 
-Currently training for a marathon, and I like to combine running with strength training and football.
-
----
-
-## 📫 Where to Find Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afonsomarcos20)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afonso20marcos@gmail.com)
-
----
-
-## 🛠️ Tech Stack
-
-**Languages & Core Data Science**
-
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-%2300f.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-
-**Bioinformatics & Machine Learning**
-
-![Biopython](https://img.shields.io/badge/Biopython-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Workflows & Pipelines**
-
-![Nextflow](https://img.shields.io/badge/nextflow-%23028333.svg?style=for-the-badge&logo=nextflow&logoColor=white)
-![UseGalaxy](https://img.shields.io/badge/Galaxy-%23FEBF00.svg?style=for-the-badge&logo=galaxy&logoColor=black)
-
-**Infrastructure, Environments & Tools**
-
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Apptainer](https://img.shields.io/badge/apptainer-%230072C6.svg?style=for-the-badge&logo=apptainer&logoColor=white)
-![Conda](https://img.shields.io/badge/conda-%2343B02A.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-
-**Biological Databases & Data Formats**
-
-![NCBI](https://img.shields.io/badge/NCBI-%23003366.svg?style=for-the-badge&logo=nih&logoColor=white)
-![FASTA/FASTQ](https://img.shields.io/badge/FASTA%2FFASTQ-%234B0082.svg?style=for-the-badge&logo=dna&logoColor=white)
-![BAM/SAM](https://img.shields.io/badge/BAM%2FSAM-%232E8B57.svg?style=for-the-badge&logo=files&logoColor=white)
-![VCF](https://img.shields.io/badge/VCF-%238B0000.svg?style=for-the-badge&logo=files&logoColor=white)
-![GFF/GTF](https://img.shields.io/badge/GFF%2FGTF-%23556B2F.svg?style=for-the-badge&logo=files&logoColor=white)
-
+[afonso20marcos@gmail.com](mailto:afonso20marcos@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/afonsomarcos20)
